@@ -1,0 +1,75 @@
+* Advanced Javascript
+** TODO Javascript Advanced Topics [0/26]
+- [ ] Closures
+- [ ] Asyncronous operations using promises
+- [ ] Asyncromous using Async/Await
+- [ ] Prototypes
+- [ ] Inheritence using prototypes
+- [ ] Destructing
+- [ ] Arrow Functions
+- [ ] Template Literals
+- [ ] Classes
+- [ ] Let and Const
+- [ ] Spread and Rest Operators
+- [ ] Map and Set
+- [ ] Promises
+- [ ] Symbol
+- [ ] Generators
+- [ ] Proxy and Reflect
+- [ ] Modules
+- [ ] Array and Object Destructuring
+- [ ] Functional Programming
+- [ ] Design Patterns [0%]
+  - [ ] Singleton
+  - [ ] Observer
+  - [ ] Module
+- [ ] Asynchronous Javascript [0%]
+  - [ ] Event Loops
+  - [ ] Call backs
+  - [ ] setTimeout, setInterval, requestAnimationFrame
+- [ ] Modules and Module bundler
+- [ ] Testing In Javascript [0%]
+  - [ ] Learn a testing framework
+  - [ ] Understand test-driven development (TDD)
+- [ ] Asynchronous requests to server
+- [ ] Fetch API for handing HTTP requests
+- [ ] Error handling
+  - [ ] Error handling techniqes
+  - [ ] handling asynchronous errors
+** TODO Typescript [0/2]
+- [ ] Basic typescript syntax
+- [ ] Type Annotation
+- [ ] Interfaces
+- [ ] Classes and inheritence
+- [ ] Enums
+- [ ] Generics
+- [ ] Union and Intersection types
+- [ ] Type Interface
+- [ ] Literal Types
+- [ ] Type Guards
+- [ ] Modules and Namespaces
+- [ ] Type Compatibility
+- [ ] Declaration Files
+- [ ] Decorators
+- [ ] TSLint and ESLint with typescritp
+- [ ] tsc (Typescript Compiler)
+*** TODO Advanced topics of Typescript [0/15]
+- [ ] Conditional Types
+- [ ] Mapped Types
+- [ ] Keyof and LookUp Types
+- [ ] Intersection and Union Types
+- [ ] Stirng Literal Types and Template Literal Types
+- [ ] Indexed Access Types
+- [ ] Declaration Merging
+- [ ] Mixins and Hybrid Types
+- [ ] TypeScript and React
+- [ ] Advanced Generics
+- [ ] Discriminated Unions
+- [ ] TypeScript and Express
+- [ ] Advanced Decoractor
+- [ ] Nominal Types and Distinct Types
+** TODO Node.js [/]
+** TODO Express.js [/]
+** TODO RESTful API Design [/]
+** TODO MongoDB [/]
+** TODO Docker [/]
