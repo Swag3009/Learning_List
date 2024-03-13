@@ -1,0 +1,45 @@
+* Javascript Advance Topics
+** *Closure* : 
+*** *Function as first class citizen* :
+If any programming language has the ability to treat functions as values, to pass them as arguments and to return a function from another function then it is said that programming language has *First Class Functions* and the functions are called as *First Class Citizens* in that programming language.
+*** *Scope Chain* :
+The scope chain is how Javascript looks for variables. When looking for variables through the nested scope, the inner scope first looks at its own scope. If the variable is not assigned locally, which is inside the inner function or block scope, then JavaScript will look at the outer scope of said function or block to find the variable. If Javascript could not find the variable in any of the outer scopes on the chain, it will throw a reference error. 
+*** *Lexical Scope* :
+Lexical scoping means that organizing and accessing variables are controlled by where we write our functions and code blocks.
+*** *Nested Functions* :
+In JavaScript, Functions within another function are called _Nested function_.  These nested functions have access to the variables and parameters of the outer (enclosing) function, creating a scope hierarchy. A function can have one or more inner functions. 
+*** *Variable Hoisting* :
+Hoisting is a concept or behavior in JavaScript where the declaration of a function, variable, or class goes to the top of the scope they were defined in.
+
+Function is hoisted to the top of the scope it is defined in, so that we're able to access it before the line where it is actually declared. Functions defined using an expression are not hoisted. Arrow functions are not hoisted. They must be defined before they are used.
+
+Variables defined with let and const are hoisted to the top of the block, but not initialized.The block of code is aware of the variable, but it cannot be used until it has been declared, it will throw reference error when we will try to access it before declaring it. Variable defined with var keyword hoisted to top but not initialized, it will give the value undefined when we try to access it.
+
+Classes are hoisted to the top of the scope they are defined in, but inaccessible until they are initialized. 
+*** *Callback Functions* :
+JavaScript functions are executed in the sequence they are called. Not in the sequence they are defined.
+A callback is a function passed as an argument to another function. While passing function as argument, parenthesis is not used. 
+*** *Function Rest Parameter* :
+The rest parameter (...) allows a function to treat an indefinite number of arguments as an array.
+*** *Anonymous Functions* :
+Anonymous Function is a function that does not have any name associated with it. An anonymous function is not accessible after its initial creation, it can only be accessed by a variable it is stored in as a function as a value. An anonymous function can also have multiple arguments, but only one expression. Functions stored in variables do not need function names. They are always invoked (called) using the variable name.
+*** *Immediately Invoked Function Expressions* :
+An Immediately Invoked Function Expression is a function expression that is defined and executed immediately after its creation.
+#+begin_src javascript
+  (function (){
+    // code statement;
+   })()
+#+end_src
+
+*** *'this' keyword* :
+- In javascript, this keyword always refer to an object.
+- If this is called by itself, then it will refer to the global window object.
+- In an object method, this refers to the object.
+- When used alone, this refers to the global object.
+- In a funciton, global object is default binding for this.
+- Function in strict mode, this is undefined.
+- this in Event handler refers to HTML element that received the event.
+- In an object method, this refers to the object.
+- Arrow functions do not have their own this. They are not well suited for defining object methods.
+
+
